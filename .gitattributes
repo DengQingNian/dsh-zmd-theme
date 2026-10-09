@@ -1,0 +1,4 @@
+# 源码统一 LF：避免 Windows 上 autocrlf 把 client.js 反复改写（会额外触发一次 HMR 重推）
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
