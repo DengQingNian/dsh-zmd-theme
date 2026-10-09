@@ -1,0 +1,8 @@
+# dsh-zmd-theme bundle patch
+#
+# `dsh.bundle.patch` of this package: mounting this file through the profile
+# bundle stack inserts the single loader row below. Nothing else is required —
+# the browser half is discovered from the package's `dsh.client` field.
+- insert:
+    - id: zmd-theme
+      name: 'dsh-zmd-theme'
